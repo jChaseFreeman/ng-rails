@@ -27,5 +27,6 @@ module Receta
 
     config.assets.paths << Rails.root.join("vendor","assets","bower_components","bootstrap-sass-official","assets","fonts")
 
+    config.assets.initialize_on_precompile = false
   end
 end
